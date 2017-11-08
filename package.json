@@ -1,0 +1,28 @@
+{
+  "name": "itemvalue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro index.js",
+    "dev": "micro-dev index.js",
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "test/**.js"
+    ]
+  },
+  "author": "Ryan Park",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.1.0",
+    "ava": "^0.23.0",
+    "dotenv": "^4.0.0",
+    "failsafe": "^1.0.0",
+    "micro": "^9.0.1",
+    "micro-dev": "^1.3.0",
+    "micro-query": "^0.2.0",
+    "node-fetch": "^1.7.3"
+  }
+}
