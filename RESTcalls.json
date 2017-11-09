@@ -1,0 +1,89 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-11-09T12:38:27.585Z",
+	"__export_source": "insomnia.desktop.app:v5.11.0",
+	"resources": [
+		{
+			"_id": "wrk_162127989f9f4474b0a24f4537afea27",
+			"parentId": null,
+			"modified": 1510230170797,
+			"created": 1510230170797,
+			"name": "Insomnia",
+			"description": "",
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_c5a3f2b28f7f47aa9f322e821f93b820",
+			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
+			"modified": 1510230170803,
+			"created": 1510230170803,
+			"name": "Base Environment",
+			"data": {},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_547fee88448a48f6af3a40a19ee758ab",
+			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
+			"modified": 1510230170798,
+			"created": 1510230170798,
+			"name": "Default Jar",
+			"cookies": [],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_92befc9ff3eb412998aca1b2332ab503",
+			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
+			"modified": 1510230986384,
+			"created": 1510230232362,
+			"url": "localhost:3000",
+			"name": "955 Arcanocrystal",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [
+				{
+					"name": "itemURI",
+					"value": "https://www.wowhead.com/item=141482/unstable-arcanocrystal&bonus=1567:3466",
+					"id": "pair_754622840a28400b989b07d58436874b"
+				}
+			],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1510230232362,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_12a238a910184633b0624672c21c82dd",
+			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
+			"modified": 1510231049722,
+			"created": 1510231013463,
+			"url": "localhost:3000",
+			"name": "955 Tarnished Sentinel Medallion",
+			"description": "",
+			"method": "GET",
+			"body": {},
+			"parameters": [
+				{
+					"name": "itemURI",
+					"value": "https://www.wowhead.com/item=147017/tarnished-sentinel-medallion&bonus=1537:3561",
+					"id": "pair_754622840a28400b989b07d58436874b"
+				}
+			],
+			"headers": [],
+			"authentication": {},
+			"metaSortKey": -1510230232312,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		}
+	]
+}
