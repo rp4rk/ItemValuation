@@ -14,6 +14,7 @@ const MOCK_STATE = () => ({
         Quantity: 100,
       },
     ],
+    Spells: [],
   },
 });
 

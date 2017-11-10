@@ -7,6 +7,7 @@ const ITEM_MOCK_JSON = () => ({
   Level: 1,
   ID: 1,
   Name: 'Test Baton',
+  Spells: [],
 });
 
 test.beforeEach(t => {
