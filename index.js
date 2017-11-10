@@ -27,7 +27,10 @@ module.exports = async (req, res) => {
   // Item was cached!
   if (itemJSON[0]) {
     const statusCode = 200;
-    const data = { value: itemJSON[0].value };
+    const data = { 
+      value: itemJSON[0].value,
+      ...itemJSON[0].hasEffect && { effectExists: itemJSON[0].effectExists, },
+    };
 
     send(res, statusCode, data);
     return;
@@ -38,7 +41,10 @@ module.exports = async (req, res) => {
 
   // Return the item value
   const statusCode = 200;
-  const data = { value: item.weight() + item.effectValue() };
+  const data = { 
+    value: item.weight() + item.effectValue(),
+    ...item.hasEffect && { effectExists: item.effectExists, },
+  };
   send(res, statusCode, data);
 
   // Store item
