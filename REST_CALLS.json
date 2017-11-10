@@ -1,13 +1,13 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2017-11-09T12:38:27.585Z",
+	"__export_date": "2017-11-10T14:47:03.472Z",
 	"__export_source": "insomnia.desktop.app:v5.11.0",
 	"resources": [
 		{
 			"_id": "wrk_162127989f9f4474b0a24f4537afea27",
 			"parentId": null,
-			"modified": 1510230170797,
+			"modified": 1510315718228,
 			"created": 1510230170797,
 			"name": "Insomnia",
 			"description": "",
@@ -36,7 +36,7 @@
 		{
 			"_id": "req_92befc9ff3eb412998aca1b2332ab503",
 			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
-			"modified": 1510230986384,
+			"modified": 1510325186076,
 			"created": 1510230232362,
 			"url": "localhost:3000",
 			"name": "955 Arcanocrystal",
@@ -45,9 +45,14 @@
 			"body": {},
 			"parameters": [
 				{
-					"name": "itemURI",
-					"value": "https://www.wowhead.com/item=141482/unstable-arcanocrystal&bonus=1567:3466",
-					"id": "pair_754622840a28400b989b07d58436874b"
+					"name": "itemId",
+					"value": "141482",
+					"id": "pair_e5f3af87c7d74ca38a00602dfd91aa05"
+				},
+				{
+					"name": "itemBonuses",
+					"value": "1567,3466",
+					"id": "pair_15d97ae53e20415c8d61d4a9882e8d89"
 				}
 			],
 			"headers": [],
@@ -62,7 +67,7 @@
 		{
 			"_id": "req_12a238a910184633b0624672c21c82dd",
 			"parentId": "wrk_162127989f9f4474b0a24f4537afea27",
-			"modified": 1510231049722,
+			"modified": 1510324432894,
 			"created": 1510231013463,
 			"url": "localhost:3000",
 			"name": "955 Tarnished Sentinel Medallion",
@@ -71,9 +76,14 @@
 			"body": {},
 			"parameters": [
 				{
-					"name": "itemURI",
-					"value": "https://www.wowhead.com/item=147017/tarnished-sentinel-medallion&bonus=1537:3561",
+					"name": "itemId",
+					"value": "147017",
 					"id": "pair_754622840a28400b989b07d58436874b"
+				},
+				{
+					"name": "itemBonuses",
+					"value": "1537,3561",
+					"id": "pair_1f959da44e454b8ea5d97e191a9057e8"
 				}
 			],
 			"headers": [],
